@@ -1,7 +1,7 @@
 let modInfo = {
-	name: "The ??? Tree",
-	id: "mymod",
-	author: "nobody",
+	name: "My first tree lol",
+	id: "promod",
+	author: "superlotteryticket",
 	pointsName: "points",
 	modFiles: ["layers.js", "tree.js"],
 
@@ -56,7 +56,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	return player.points.gte(new Decimal("e280000000"))
+	return player.points.gte(new Decimal("e1000"))
 }
 
 
